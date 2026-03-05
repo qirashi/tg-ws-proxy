@@ -15,8 +15,6 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 
 DEFAULT_PORT = 1080
-DEFAULT_TARGET_IP = '149.154.167.220'  # unthrottled, works for DC2 and DC4
-
 log = logging.getLogger('tg-ws-proxy')
 
 _TG_RANGES = [
